@@ -1,0 +1,79 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(#8E2DE2,#4A00E0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+width: 20%;
+  height: 50%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form h2{
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px 15px;
+  letter-spacing: .8px;
+  box-sizing: border-box;
+}
+.submit{
+  background-image: linear-gradient(#9640e0,#4A00E0);
+  color: rgb(251, 247, 247);
+font-size: 15px;
+}
+.submit:active{
+  background-image: linear-gradient(#b577eb,#7133ed);
+}
+form p{
+  color: grey;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+@media (max-width: 1300px) {
+  form{
+    width: 25%;
+    height: 48%;
+  }
+  }
+  @media (max-width: 1100px) {
+    form{
+      width: 30%;
+    }
+    }
+    @media (max-width: 900px) {
+      form{
+        width: 35%;
+      }
+      }
+    @media (max-width: 600px) {
+      form{
+        width: 50%;
+        height: 48%;
+      }
+      }
+      @media (max-width: 450px) {
+        form{
+          width: 70%;
+          height: 48%;
+        }
+        form h2{
+          font-size: 25px;
+        }
+        }
